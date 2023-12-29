@@ -1,0 +1,31 @@
+{
+    "title": "云叔脑库",
+    "description": "记录 我常用的数字化信息和文摘",
+    "author": "leoshcn",
+    "language": "zh-hans",
+
+    "links" : {
+       "sidebar" : {
+            "文摘 on 语雀" : "https://www.yuque.com/books/share/ff4f8faf-e9fd-4441-9307-c065a2f4fa22?#%20%E3%80%8ASimpRead%E3%80%8B"
+        }
+    },
+
+
+    "plugins": [
+         "-lunr", "-search", "search-pro",
+         "tbfed-pagefooter", 
+         "flexible-alerts",
+         "expandable-chapters"
+    ],
+
+    "pluginsConfig": {
+    "tbfed-pagefooter": {
+        "copyright":"Copyright &copy leoops.com 2017",
+        "modify_label": "该文件修订时间：",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+
+
+
+}
